@@ -241,8 +241,25 @@ def eight(string, num):
 
 
 def nine(string1, string2):
-    # make sure string1 is the shortest of the two
-    return
+    counter = 0
+    if len(string1)>= len(string2):
+        for i in string2:
+            if i in string1:
+                counter +=1
+                continue
+        if counter == len(string2):
+            return True
+        else:
+            return False
+    else:
+        for i in string1:
+            if i in string2:
+                counter +=1
+                continue
+        if counter == len(string1):
+            return True
+        else:
+            return False
 
     # <QUESTION 10>
 
