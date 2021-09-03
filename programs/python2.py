@@ -213,7 +213,17 @@ def seven(a, b, c):
 
 
 def eight(string, num):
-    return
+    wlist =[]
+    for i in string:
+        wlist += i
+    for i in range (0,num):
+        if len(wlist)%2==0:
+            a = int(len(wlist)/2)
+            wlist.pop(a-1)
+        else:
+            a= int(len(wlist)/2)
+            wlist.pop(a)
+    return ''.join(wlist)
 
     # <QUESTION 9>
 
