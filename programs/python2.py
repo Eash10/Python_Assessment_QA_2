@@ -77,7 +77,11 @@ def two(num):
 
 
 def three(a):
-    return
+    b = str(a) + str(a)
+    c = str(a) + str(a) +str(a)
+    d = str(a) + str(a)+ str(a) + str(a)
+    summ = a + int(b) + int(c) + int(d)
+    return summ
 
     # <QUESTION 4>
 
