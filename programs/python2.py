@@ -278,4 +278,7 @@ def nine(string1, string2):
 
 
 def ten(a, b):
+    outlist = []
+    counter = a*b /3
+    
     return
