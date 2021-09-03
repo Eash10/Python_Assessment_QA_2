@@ -111,7 +111,12 @@ def three(a):
 
 
 def four(string1, string2):
-    return
+    outstring = ''
+    if len(string1) == len(string2):
+        for i in range (0, len(string1)):
+            outstring += string1[i]
+            outstring += string2[i]
+        return outstring
 
     # <QUESTION 5>
 
