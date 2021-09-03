@@ -134,7 +134,15 @@ def four(string1, string2):
 
 
 def five():
-    return
+    outlist = []
+    counter = 0
+    while counter != 5:
+        n = random.randint(100,201)
+        if n %2 ==0:
+            outlist.append(n)
+            counter +=1
+
+    return outlist
 
     # <QUESTION 6>
 
