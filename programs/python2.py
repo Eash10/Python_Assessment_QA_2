@@ -190,7 +190,11 @@ def six(string):
 
 
 def seven(a, b, c):
-    return
+    unsortedlist = [a, b, c]
+    sortedlist=sorted(unsortedlist)
+    if sortedlist[1] - sortedlist[0] == sortedlist[2] - sortedlist[1]:
+       return True 
+    return False
 
     # <QUESTION 8>
 
