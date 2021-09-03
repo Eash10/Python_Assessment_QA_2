@@ -32,7 +32,12 @@ import random
 
 
 def one(string):
-    return
+    outstring = ''
+    for i in string:
+        for y in range (1,4):
+            outstring += i
+
+    return(outstring)
 
     # <QUESTION 2>
 
