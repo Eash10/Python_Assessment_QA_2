@@ -162,7 +162,10 @@ def five():
 
 
 def six(string):
-    return
+    outstring = string.lower()
+    if outstring[-2:] == 'py':
+        return True
+    return False
 
     # <QUESTION 7>
 
